@@ -71,11 +71,13 @@ python3 01__anonymize_eeg.py ./data/patients ./data/cleaned_eegs
 data/
 ├── subject_01/
 │   ├── 110012.EDF
+│   ├── 110021.dat
 │   ├── 110060.TRC
 │   └── D0000313-t3.sig
 └── subject_02/
     ├── 120014a.EDF
-    └── 120014a.TRC
+    ├── 120014a.TRC
+    └── D0000312-t1.sig
 ```
 
 **Output:**
@@ -83,11 +85,13 @@ data/
 data_anonymized/
 ├── subject_01/
 │   ├── 110012_anonymized.EDF
+│   ├── 110021_anonymized.dat
 │   ├── 110060_anonymized.TRC
 │   └── D0000313-t3_anonymized.sig
 └── subject_02/
     ├── 120014a_anonymized.EDF
-    └── 120014a_anonymized.TRC
+    ├── 120014a_anonymized.TRC
+    └── D0000312-t1_anonymized.sig
 ```
 
 ## Contact
